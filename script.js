@@ -7,7 +7,7 @@ var myPokemon = new Pokemon("리자몽", 100, "째려보기", "베어가르기",
 window.onload = function() {
   showStats(myPokemon);
   var status = 0
-  var button = document.getElementById("switchMenuButton");
+  var button = document.getElementById("button1");
   button.addEventListener("click", function() {
     if (status == 0) {
       button.textContent = '능력치 메뉴로 이동하기';
